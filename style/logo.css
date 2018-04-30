@@ -1,0 +1,31 @@
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5% 5%;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    background: blue;
+}
+
+
+.fa-facebook {
+    background: gray;
+    color: white;
+}
+
+.fa-twitter {
+    background: gray;
+    color: white;
+}
+
+.fa-google-plus {
+    background: gray;
+    color: white;
+}

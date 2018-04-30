@@ -1,0 +1,110 @@
+.content .main{
+    display: flex;
+    margin: 3%;
+    height: 30%;
+}
+
+.flex{
+    display: flex;
+}
+
+.content .main > div{
+    margin: 1%;
+    padding: 0;
+    border: 1px solid black;
+    height: 250px;
+}
+
+.content .main div.first{
+    width: 25%;
+    text-align: center;
+}
+
+.content .main div.second{
+    width: 73%;
+    text-align: center;
+}
+
+.content #spon{
+    background-image: url(../resources/spon);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.content #spon div{
+    display: table;
+    width: 30%;
+    height: 15%;
+    margin: 15% 35%;
+    color: white;
+    background-color: blue;
+    border-radius: 100%;
+    font-size: .6em;
+    padding: 0px;
+    text-align: center;
+}
+
+.content #spon div span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content .main form{
+    color: white;
+    background-color: blue;
+    height: inherit;
+    width: auto;
+}
+
+.content .main input{
+    width: 60%;
+}
+.content #sub{
+    background-color: black;
+}
+
+.content .main img{
+    height: inherit;
+}
+
+.content .main div.second div{
+    height: 50%;
+}
+
+.content .main div.second img{
+    height: 100%;
+}
+
+.content .main div.second .left{
+    text-align: right;
+    padding: 2px;
+}
+
+.content #cross{
+    width: 80%;
+    height: 80%;
+    background-color: aqua;
+    background-image: url(../resources/cross.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content #cross div{
+    display: table;
+    width: 60%;
+    height: 10%;
+    margin: 34% 17%;
+    background-color: white;
+    border: 3px solid black;
+    font-size: .5em;
+    padding: 0px;
+    text-align: center;
+}
+
+.content #cross div span{
+    display: table-cell;
+    vertical-align: middle;
+}

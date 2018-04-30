@@ -1,0 +1,56 @@
+.content #ax_inner{
+    display: flex;
+}
+
+.content #ax_outter{
+    width: 78%;
+}
+
+.content #ax_outter img{
+    width: 100%;
+}
+
+.content #axha{
+    width: 100%;
+    display: flex;
+}
+.content #middle{
+    display: flex;
+}
+#mohlat1 ,#mohlat2{
+    height: 10%;
+    width: inherit;
+}
+
+#mohlat1 {
+    transform: rotate(-90deg);
+	transform-origin: 105% 110%;
+}
+
+#mohlat2 {
+    transform: rotate(90deg);
+	transform-origin: 5% -10%;
+}
+
+.content form{
+    border: 1px solid black;
+    color: blue;
+    text-align: center;
+    font-size: .6em;
+    padding: 2%;
+    margin: 5% 10% 5% 10%;
+}
+
+.content form input,.content form select{
+    width: 90%;
+    height: 20%;
+}
+
+.content form div{
+    margin-bottom: 5%;
+}
+
+.content form h5{
+    border-bottom: 1px solid black; 
+    margin-top: 0;
+}

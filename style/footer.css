@@ -1,0 +1,28 @@
+footer{
+     display: flex;
+     background-color: gainsboro;
+}
+footer div.big {
+  width: 30%;
+  padding: 3%;
+    align-self: center;
+}
+
+footer div.small {
+  width: 20%;
+  padding: 3%;
+}
+
+footer div{
+    font-size: 1em;
+}
+
+footer ul {
+     list-style-type: none;
+     font-weight: bold;
+}
+
+footer ul li{
+    font-size: .9em;
+    font-weight: normal;
+}
