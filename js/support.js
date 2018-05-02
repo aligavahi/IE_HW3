@@ -42,6 +42,7 @@ window.onload = function() {
     var supporter_info = document.createElement("div");
     var messenger = document.createElement("div");
     supporter_info.className = "flex";
+    messenger.id = "messenger";
     // --------------------- supporter_info childs
     var supporter_div = document.createElement("div");
     var s_text1 = document.createTextNode("پشتیبان بخش فروش");
@@ -50,6 +51,7 @@ window.onload = function() {
     var minus_btn = document.createElement("BUTTON");
     var supporter_img = document.createElement("img");
     
+    minus_btn.id = "minus_btn";
     supporter_div.appendChild(s_text1);
     supporter_div.appendChild(s_br);
     supporter_div.appendChild(s_text2);
@@ -90,8 +92,12 @@ window.onload = function() {
     btn.onclick = function(){
         btn.style.display = "none";
         chat_box.style.display = "block";
-        chat_div.style.height = "40%";
+        chat_box.style.height = "100%";
+        messages.style.height = "80%";
+        supporter_info.style.height = "15%";
+        chat_div.style.height = "60%";
         chat_div.style.width = "25%";
+        chat_div.style.backgroundColor="aqua";
     };
     
     minus_btn.onclick = function(){
@@ -99,10 +105,13 @@ window.onload = function() {
         chat_box.style.display = "none";
         chat_div.style.height = "10%";
         chat_div.style.width = "15%";
+        chat_div.style.backgroundColor="inherit"; 
     };
     
     add_left_msg("سلام");
     add_right_msg("سلام");
     add_left_msg("سلام");
+    add_left_msg("ام");
+    add_right_msg("سلام");
     add_right_msg("سلام");
 };
