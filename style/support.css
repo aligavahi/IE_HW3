@@ -1,10 +1,12 @@
 div.support {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     position: fixed;
     right: 0;
     bottom: 0;
     width: 15%;
     height: 10%;
-    padding: 0px;
+    padding: 20px 0px 0px 0px;
 }
 .support > button {
     width: 100%;
@@ -29,8 +31,9 @@ div.support {
     background-color: #f1f1f1;
     border-radius: 10px;
     width: 60%;
-    padding: 3px;
-    margin: 3px 0;
+    padding: 2px;
+    margin: 2px 0;
+    font-size: .7em;
     clear: both;
 }
 
@@ -62,7 +65,7 @@ div.support {
 
 .support .sender{
     position: absolute;
-    top: 75%;
+    top: 83%;
     width: 100%;
     height: 0px;
     margin: 0px;
@@ -70,15 +73,18 @@ div.support {
 
 .support .sender button{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 7%;
     width: 20px;
     height: 20px;
+    background-image: url(../resources/send_arrow.png);
+    background-color: transparent;
+    background-size: 100%;
 }
 
 .support .sender input{
     width: 100%;
-    height: 20px;
+    height: 10%;
     text-align: right;
     padding-left: 30px;
     margin-left: 5%;
@@ -92,21 +98,43 @@ div.support {
 .support #messages{
     height:100%;
     width: 100%;
-    padding: 10px 10px 10px 2px;
+    padding: 10px 10px 2px 2px;
     overflow-y: auto;
     margin: 0px;
     background-color: aliceblue;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
+
 .support #messenger{
     position: absolute;
-    height: 100%;
+    height: 90%;
     width: 100%;
-    margin-bottom:5% 0% 0% 0%;
 }
 
 .support #minus_btn{
     height: 20px;
     width: 20px;
+    margin: 3px;
+    background-image: url(../resources/minus.svg);
+    background-size: 100%;
+}
+
+.support img.supporterInfo{
+    margin: 5%;
+    width: 20%;
+}
+
+.support div.supporterInfo{
+    margin: 5%;
+    width: 50%;
+}
+
+.support img {
+    border-radius: 50%;
+}
+
+.support .time{
+    font-size: .8em;
+    color: chocolate;
 }
